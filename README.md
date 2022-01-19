@@ -1,4 +1,4 @@
-## # LCD ISS TRACKER
+## LCD ISS TRACKER
 
 Well, this is a simple project to display the location where the iss is on a lcd
 
