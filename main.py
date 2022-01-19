@@ -6,7 +6,7 @@ import json
 url_iss = "http://api.open-notify.org/iss-now.json" # Api to get location
 
 
-ser = serial.Serial('COM6', 9600, timeout=0.050) # replace "replace-with-your-com-port" with your com port 
+ser = serial.Serial('replace-with-your-com-port', 9600, timeout=0.050) # replace "replace-with-your-com-port" with your com port 
 
 def get_iss_location(): # getting and parsing data
     response = requests.get(url=url_iss)
