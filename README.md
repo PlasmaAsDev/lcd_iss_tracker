@@ -7,7 +7,7 @@ The project use a python script to get the location via an api (http://api.open-
 *The arduino must be connected to a pc with internet connection*
 *Requires LiquidCrystal library for arduino code*
 
-###Installation (python):
+## Installation (python):
 `pip install -r requirements.txt`
 
 ### Circuit
