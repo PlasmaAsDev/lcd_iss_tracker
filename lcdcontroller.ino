@@ -30,5 +30,5 @@ void loop() {
   lcd.setCursor(0,1);
   lcd.print(lat); // Print the latitude value on lcd
 
-  delay(1);
+  delay(500);
 }
