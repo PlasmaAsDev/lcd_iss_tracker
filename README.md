@@ -12,4 +12,3 @@ The project use a python script to get the location via an api (http://api.open-
 
 ### Circuit
 ![circuit](https://user-images.githubusercontent.com/56369290/150192689-cc61816d-5d20-4677-bbe1-f750c3c492a0.png)
-
