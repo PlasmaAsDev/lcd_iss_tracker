@@ -11,8 +11,8 @@ ser = serial.Serial("replace-with-your-com-port", 9600, timeout=0.050) # replace
 def get_iss_location(): # getting and parsing data
     response = requests.get(url=url_iss)
     obj = json.loads(response.content)
-    lat = f"{float(obj["iss_position"]["latitude"])}" 
-    lon = f"{float(obj["iss_position"]["longitude"])}"
+    lat = f"{float(obj['iss_position']['latitude'])}" 
+    lon = f"{float(obj['iss_position']['longitude'])}"
 
     while len(lat) < 7:
         lat = lat + " "
